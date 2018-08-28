@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookist.Core", "Bookist.Core\Bookist.Core.csproj", "{1F25930F-8CAD-4852-A030-0453D68D43BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookist.WebApi", "Bookist.WebApi\Bookist.WebApi.csproj", "{5B4D417B-C221-4C16-BA91-ED5E148F4EDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{29192F66-AFD1-47F3-941A-5584FAB46722}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qiniu", "Libs\Qiniu\Qiniu.csproj", "{B6B2041D-E01B-4DCB-96C5-05483DB054A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F25930F-8CAD-4852-A030-0453D68D43BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F25930F-8CAD-4852-A030-0453D68D43BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F25930F-8CAD-4852-A030-0453D68D43BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F25930F-8CAD-4852-A030-0453D68D43BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B4D417B-C221-4C16-BA91-ED5E148F4EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B4D417B-C221-4C16-BA91-ED5E148F4EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B4D417B-C221-4C16-BA91-ED5E148F4EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B4D417B-C221-4C16-BA91-ED5E148F4EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6B2041D-E01B-4DCB-96C5-05483DB054A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B2041D-E01B-4DCB-96C5-05483DB054A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B2041D-E01B-4DCB-96C5-05483DB054A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B2041D-E01B-4DCB-96C5-05483DB054A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6B2041D-E01B-4DCB-96C5-05483DB054A6} = {29192F66-AFD1-47F3-941A-5584FAB46722}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C62AB1A4-CFAB-47AB-A9B1-749B047A9E3E}
+	EndGlobalSection
+EndGlobal
